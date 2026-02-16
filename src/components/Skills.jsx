@@ -21,11 +21,9 @@ import {
   SiTailwindcss,
   SiPostgresql,
   SiMongodb,
-  SiGraphql,
   SiJest,
   SiWebpack,
   SiRedux,
-  SiFirebase,
   SiVercel,
   SiVite,
 } from "react-icons/si";
@@ -74,7 +72,6 @@ const SkillsSection = () => {
       color: "text-blue-400",
       skills: [
         { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
-        { name: "React Native", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
         {
           name: "Next.js",
           icon: <SiNextdotjs className="w-4 h-4 text-white" />,
@@ -121,10 +118,6 @@ const SkillsSection = () => {
         {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
-        },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
         },
       ],
     },
@@ -184,10 +177,6 @@ const SkillsSection = () => {
           icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
         },
         { name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
-        {
-          name: "Firebase",
-          icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
-        },
         { name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
       ],
@@ -223,9 +212,9 @@ const SkillsSection = () => {
  text-white min-h-screen"
     >
       <section className="container mx-auto px-4 py-11">
-      <h2 className="text-5xl md:text-7xl font-black text-transparent bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-center">
-        Skills
-      </h2>
+        <h2 className="text-5xl md:text-7xl font-black text-transparent bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-center">
+          Skills
+        </h2>
         <div className="flex justify-center items-center ">
           <IconCloudDemo />
         </div>

@@ -22,9 +22,8 @@ const AnimatedGrid = () => {
                 key={`v-${i}`}
                 className="relative h-full w-full border-r border-blue-500/10"
                 style={{
-                  animation: `gridPulse ${
-                    2 + Math.random() * 2
-                  }s ease-in-out infinite`,
+                  animation: `gridPulse ${2 + Math.random() * 2
+                    }s ease-in-out infinite`,
                   animationDelay: `${Math.random() * 2}s`,
                 }}
               />
@@ -36,9 +35,8 @@ const AnimatedGrid = () => {
                 key={`h-${i}`}
                 className="relative w-full h-full border-b border-blue-500/10"
                 style={{
-                  animation: `gridPulse ${
-                    2 + Math.random() * 2
-                  }s ease-in-out infinite`,
+                  animation: `gridPulse ${2 + Math.random() * 2
+                    }s ease-in-out infinite`,
                   animationDelay: `${Math.random() * 2}s`,
                 }}
               />
@@ -53,27 +51,24 @@ const AnimatedGrid = () => {
 export default function Hero() {
   const words = [
     "Full-Stack Developer",
-    "React Native",
     "React.js",
     "Node.js",
     "JavaScript",
     "MERN stack",
-    "Mobile developer",
   ];
 
   const [code] = useState(`
 const profile = {
-    name: 'Ankit Bhardwaj',
-    title: 'Software Developer | Full-Stack Developer | Mobile Developer',
+    name: 'Yuvraj Singh',
+    title: 'Software Developer | Frontend Developer',
     skills: [
-        'React Native', 'React.js', 'Node.js', 'Express.js',
+        'React.js', 'Redux', 'Node.js', 'Express.js',
         'Next.js', 'TypeScript', 'MongoDB', 'MySQL',
         'CockroachDB', 'REST APIs', 'Git', 'Linux',
         'Unit Testing', 'Performance Optimisation'
     ],
     coreCompetencies: [
-        'Full-Stack Development',
-        'Cross-Platform Mobile App Development',
+        'Frontend Development',
         'API Design & Integration',
         'Database Design & Management',
         'Scalable Architecture Design',
@@ -124,7 +119,7 @@ const profile = {
                     I'm
                     <span className="typing-effect gradient-text">
                       {" "}
-                      Ankit Bhardwaj
+                      Yuvraj Singh
                     </span>
                   </span>
                 </h1>

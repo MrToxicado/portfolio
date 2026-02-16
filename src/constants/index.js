@@ -1,3 +1,3 @@
-export const myEmail = "bhardwaj21ankit@gmail.com";
-export const myLocation = "Gurugram";
-export const myPincode = "122001"
+export const myEmail = "mryuvrajsingh007@gmail.com";
+export const myLocation = "Noida";
+export const myPincode = "201301"
