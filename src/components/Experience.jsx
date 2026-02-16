@@ -59,7 +59,7 @@ const ExperienceSection = () => {
       company: "one.com",
       period: "Jan. 2024 - Present",
       description:
-        "Frontend: working on integrating various services into our super app - companion app",
+        "Collaborated with product managers to translate business requirements into technical designs, delivering features like responsive UI components.",
     },
     {
       icon: Database,
@@ -67,7 +67,7 @@ const ExperienceSection = () => {
       company: "one.com",
       period: "May 2022 - Dec. 2023",
       description:
-        "Backend: Assisted in making various DB optimisations and integrating API's",
+        "Tested front-end modules using React and TypeScript, which improved code maintainability by 25% and reduced front-end bugs by 15%.",
     },
     {
       icon: SquareDashedBottomCode,

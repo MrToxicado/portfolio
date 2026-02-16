@@ -177,5 +177,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-<div align="center"> Made with ❤️ by Ankit Bhardwaj </div>
+<div align="center"> Made with ❤️ by Yuvraj Singh </div>
 

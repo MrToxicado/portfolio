@@ -17,31 +17,31 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "B. Tech (Computer Science)",
-      school: "J.C. Bose University of Science and Technology, YMCA",
+      school: "GLA University, Mathura",
       mascot: "💻",
       year: "2018-2022",
-      achievements: ["CGPA: 8.0"],
-      skills: ["C++", "Operating System", "OOPS", "DBMS"],
+      achievements: ["CGPA: 7.6"],
+      skills: ["JAVA", "Operating System", "OOPS", "DBMS"],
       description:
         "Focused on core computer science subjects with emphasis on practical laboratory work and scientific research methodologies. Enjoyed college life ^_^",
     },
     {
       degree: "Intermediate (+2)",
-      school: "St. Crispin's Sr. Sec. School",
+      school: "St. Conrad's Inter College, Agra",
       mascot: "📘",
-      year: "2016-2017",
-      achievements: ["Percentage: 92%"],
-      skills: ["Mathematics", "Physics", "Chemistry", "English"],
+      year: "2017-2018",
+      achievements: ["Percentage: 86%"],
+      skills: ["Mathematics", "Physics", "Physical Education", "English"],
       description:
         "Developed strong analytical and critical thinking skills through comprehensive study of science. Studies were highly engaging :D",
     },
     {
-      degree: "Matriculation",
-      school: "St. Crispin's Sr. Sec. School, Gurugram",
+      degree: "High School",
+      school: "St. Conrad's Inter Colleg, Agra",
       mascot: "📕",
-      year: "2014-2015",
-      achievements: ["CGPA: 9.4"],
-      skills: ["Science", "English", "Social Studies", "Economics", "History"],
+      year: "2015-2016",
+      achievements: ["Percentage: 81%"],
+      skills: ["Mathematics", "English", "Hindi", "History", "Computer Applications"],
       description:
         "Developed knowledge in a variety of subjects. Played sports like cricket, badminton, football, volleyball. Life was pretty easy :)",
     },
@@ -97,11 +97,10 @@ const EducationSection = () => {
             <motion.div
               key={index}
               variants={cardVariants}
-              className={`relative border rounded-xl p-8 transition-all duration-300 bg-gray-900/50 backdrop-blur-sm ${
-                hoveredIndex === index
-                  ? "border-teal-500 scale-[1.02]"
-                  : "border-blue-400/20"
-              }`}
+              className={`relative border rounded-xl p-8 transition-all duration-300 bg-gray-900/50 backdrop-blur-sm ${hoveredIndex === index
+                ? "border-teal-500 scale-[1.02]"
+                : "border-blue-400/20"
+                }`}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
