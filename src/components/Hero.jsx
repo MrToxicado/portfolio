@@ -219,7 +219,15 @@ const profile = {
                       developer.js
                     </span>
                   </div>
-                  <pre className="language-javascript">
+                  <pre
+                    className="language-javascript"
+                    style={{
+                      whiteSpace: "pre-wrap",
+                      overflowX: "hidden",
+                      overflowWrap: "break-word",
+                      wordBreak: "break-word",
+                    }}
+                  >
                     <code className="language-javascript">{code}</code>
                   </pre>
                 </div>
