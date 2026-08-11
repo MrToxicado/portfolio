@@ -1,181 +1,195 @@
+# Yuvraj Singh Portfolio
 
-## Version 2  
-
-> ![image](https://github.com/user-attachments/assets/ce36e52b-96c2-4b72-a1e8-1e68b9767f6c)  
->  
-> 🔗 [View on GitHub](https://github.com/seraprogrammer/portfolio-v2)
-> 🔗 [v2 Portfolio](https://codervai2.vercel.app)
-
-
-
-# Portfolio Website
 <div align="center">
-  <pre>
-    _____           _    __      _ _       
-   |  __ \         | |  / _|    | (_)      
-   | |__) |__  _ __| |_| |_ ___ | |_  ___  
-   |  ___/ _ \| '__| __|  _/ _ \| | |/ _ \ 
-   | |  | (_) | |  | |_| || (_) | | | (_) |
-   |_|   \___/|_|   \__|_| \___/|_|_|\___/ 
-  </pre>
+  <img src="./src/assets/images/logo.svg" alt="Yuvraj Singh portfolio logo" width="110" />
+
+  <h3>Software Developer | Frontend Developer | MERN Stack Developer</h3>
+
+  <p>
+    A personal portfolio website built with React, Vite, Tailwind CSS, Framer Motion, and modern UI components.
+  </p>
+
+  <p>
+    <a href="https://github.com/MrToxicado/portfolio"><strong>Repository</strong></a>
+    ·
+    <a href="https://github.com/MrToxicado"><strong>GitHub Profile</strong></a>
+    ·
+    <a href="mailto:mryuvrajsingh007@gmail.com"><strong>Email Me</strong></a>
+  </p>
 </div>
 
- 
-Welcome to my **portfolio website**! This site showcases my skills, experience, education, projects, and how to get in touch with me. It's built with **React** and **Vite** for a fast, modern web experience. You can explore my work, learn about my journey, and contact me directly.
+---
+
+## About Me
+
+Hey, I am **Yuvraj Singh**, a Software Developer with 4+ years of experience, most recently working at **one.com** as an **SDE-1**.
+
+I work across frontend and full-stack development, building scalable, responsive, and maintainable web applications with technologies like React.js, Node.js, PostgreSQL, CockroachDB, MongoDB, Redux, and TypeScript.
+
+I care about clean readable code, responsive layouts, extensible architecture, and solving practical product problems with modern web tooling.
+
+<div align="center">
+  <img src="./src/assets/images/profile2.jpeg" alt="Yuvraj Singh profile image" width="260" />
+</div>
 
 ---
 
-## Demo
+## Portfolio Sections
 
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
+- **Home:** Hero section with my profile, role, and GitHub CTA.
+- **About:** A short introduction about me, my experience, and interests.
+- **Skills:** Frontend, backend, cloud, tooling, and development technologies.
+- **Experience:** My professional journey at one.com.
+- **Education:** My academic background and achievements.
+- **Contact:** Email and location details with a contact form powered by Web3Forms.
 
 ---
 
-## Live Preview
+## Experience
 
-Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://codervai.vercel.app/)
+| Role | Company | Period |
+| --- | --- | --- |
+| Software Developer - 1 | one.com | Jan. 2024 - Present |
+| Associate Software Developer | one.com | May 2022 - Dec. 2023 |
+| Software Developer Intern | one.com | Dec. 2021 - May 2022 |
+
 ---
-### 🎯 Project Structure
+
+## Skills
+
+**Frontend:** React.js, Next.js, TypeScript, JavaScript, Redux, Tailwind CSS, HTML, CSS
+
+**Backend:** Node.js, Express.js, REST APIs, PostgreSQL, CockroachDB, MongoDB, MySQL
+
+**Tools & Cloud:** Git, GitHub, GitLab, Docker, Linux, CI/CD, Jest, Webpack, Vite, Vercel, VS Code
+
+---
+
+## Education
+
+| Degree | Institute | Year |
+| --- | --- | --- |
+| B.Tech, Computer Science | GLA University, Mathura | 2018 - 2022 |
+| Intermediate (+2) | St. Conrad's Inter College, Agra | 2017 - 2018 |
+| High School | St. Conrad's Inter College, Agra | 2015 - 2016 |
+
+---
+
+## Contact
+
+- **Email:** [mryuvrajsingh007@gmail.com](mailto:mryuvrajsingh007@gmail.com)
+- **Location:** Noida, 201301
+- **GitHub:** [blacktornado2](https://github.com/MrToxicado)
+- **Repository:** [MrToxicado/portfolio](https://github.com/MrToxicado/portfolio)
+
+---
+
+## Tech Stack
+
+- **Frontend:** React 18, Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion, Prism.js
+- **Icons:** Lucide React, React Icons
+- **Routing:** React Router, React Router Hash Link
+- **Forms:** Web3Forms
+- **Deployment:** Vercel-ready configuration
+
+---
+
+## Project Structure
+
 ```bash
 portfolio/
-├── node_modules/
 ├── public/
 ├── src/
 │   ├── assets/
+│   │   ├── css/
+│   │   └── images/
+│   │       ├── logo.svg
+│   │       ├── profile.jpeg
+│   │       └── profile2.jpeg
 │   ├── components/
-│   │   ├── ui/
-│   │   │   ├── Reusable Components/
-│   │   │   │   ├── badge.jsx
-│   │   │   │   ├── button.jsx
-│   │   │   │   ├── card.jsx
-│   │   │   │   ├── EducationLoader.jsx
-│   │   │   │   ├── evervault-card.jsx
-│   │   │   │   ├── flip-words.jsx
-│   │   │   │   ├── icon-cloud.jsx
-│   │   │   │   ├── meteors.jsx
-│   │   │   │   ├── sparkles-text.jsx
-│   │   │   │   └── tooltip.jsx
-│   │   │   │
-│   │   │   ├── Main Components/
-│   │   │   │   ├── AnimatedGrid.jsx
-│   │   │   │   ├── Contact.jsx
-│   │   │   │   ├── Education.jsx
-│   │   │   │   ├── enhanced-portfolio-card.jsx
-│   │   │   │   ├── Experience.jsx
-│   │   │   │   ├── global.jsx
-│   │   │   │   ├── Header.jsx
-│   │   │   │   ├── Hero.jsx
-│   │   │   │   ├── PortfolioPage.jsx
-│   │   │   │   ├── Projects.jsx
-│   │   │   │   └── Skills.jsx
-│   │   └── lib/
+│   │   ├── Contact.jsx
+│   │   ├── Education.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── PortfolioPage.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Skills.jsx
+│   │   └── ui/
+│   ├── constants/
+│   │   └── index.js
+│   ├── lib/
 │   ├── App.jsx
 │   └── main.jsx
-├── Configuration Files/
-│   ├── .eslintrc.js
-│   ├── .gitignore
-│   ├── components.json
-│   ├── index.html
-│   ├── jsconfig.json
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── README.md
-│   ├── tailwind.config.js
-    └── vite.config.js
-
-
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vercel.json
+└── vite.config.js
 ```
----
-
-## Sections of the Portfolio
-
-The portfolio website consists of the following sections:
-
-- **Home**: Introduction and a brief overview.
-- **Skills**: A detailed list of my technical skills.
-- **Experience**: My professional journey and work experience.
-- **Education**: Academic background and certifications.
-- **Projects**: A showcase of the projects I've worked on.
-- **Contact**: Information on how to reach out to me.
 
 ---
 
-## 💻 Technologies Used
-- **Frontend:** React.js with Vite
-- **Styling:** Tailwind CSS
-- **Animations:** Framer Motion
-- **Icons:** React Icons
-- **Deployment:** Vercel
+## Getting Started
 
----
+Clone the repository:
 
-## Installation ⬇️
-
-You will need to download **Git** and **Node** to run this project.
-
-### Git
-
-- Download and install Git from the official website: [Git Downloads](https://git-scm.com/)
-- Verify the installation:
-  ```bash
-  git --version
-  ```
-
-### Node
-
-- Download and install Node.js from the official website: [Node.js Downloads](https://nodejs.org/)
-- Make sure you have the latest version of both Git and Node on your computer.
-- Verify the installation:
-  ```bash
-  node --version
-  ```
-
-# Getting Started 🎯
-
-### Fork and Clone the Repository 🚀
-1. Click the **Fork** button at the top-right corner of the page to create your own copy of the repository.
-2. After forking, open your terminal and run the following commands to clone the repo:
-
-  ```bash
-  git clone https://github.com/seraprogrammer/portfolio.git
-  ```
-Navigate to the Project Directory 📂
-Once the repository is cloned, change your directory to the project folder:
 ```bash
+git clone https://github.com/MrToxicado/portfolio.git
 cd portfolio
 ```
 
-Install Dependencies ⚙️
-From the root directory of your project, install the necessary packages:
+Install dependencies:
+
 ```bash
 npm install
 ```
 
-Run the Development Server 🚀
-Start the development server to see your project live:
+Run the development server:
+
 ```bash
 npm run dev
 ```
 
-View the Project 🌐
-Open your browser and visit http://localhost:5173/ to see the result! 🎉
+Open the local app:
 
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+```bash
+http://localhost:5173/
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
 
 ---
 
-### 🤝 Contributing
+## Available Scripts
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Create a production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
 
 ---
 
-<div align="center"> Made with ❤️ by Yuvraj Singh </div>
+## License
 
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+  Made with care by <strong>Yuvraj Singh</strong>
+</div>
