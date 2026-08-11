@@ -1,3 +1,12 @@
+## Version 2
+
+> ![Portfolio v2 preview](./src/assets/images/portfolio-v2-preview.png)
+>
+> 🔗 [View on GitHub](https://github.com/MrToxicado/portfolio)
+> 🔗 [v2 Portfolio](https://portfolio-portfolios-projects-691eb381.vercel.app/)
+
+---
+
 # Yuvraj Singh Portfolio
 
 <div align="center">
