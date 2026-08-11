@@ -212,23 +212,39 @@ const profile = {
                     <div className="window-dot bg-red-500 flex items-center">
                       <IoIosClose color="black" />
                     </div>
+
                     <div className="window-dot bg-yellow-500"></div>
                     <div className="window-dot bg-green-500"></div>
+
                     <span className="ml-3 text-sm text-gray-400 flex items-center gap-2">
                       <i className="fas fa-code"></i>
                       developer.js
                     </span>
                   </div>
+
                   <pre
                     className="language-javascript"
                     style={{
                       whiteSpace: "pre-wrap",
                       overflowX: "hidden",
-                      overflowWrap: "break-word",
+                      overflowWrap: "anywhere",
                       wordBreak: "break-word",
+                      maxWidth: "100%",
+                      boxSizing: "border-box",
                     }}
                   >
-                    <code className="language-javascript">{code}</code>
+                    <code
+                      className="language-javascript"
+                      style={{
+                        whiteSpace: "pre-wrap",
+                        overflowWrap: "anywhere",
+                        wordBreak: "break-word",
+                        display: "block",
+                        maxWidth: "100%",
+                      }}
+                    >
+                      {code}
+                    </code>
                   </pre>
                 </div>
               </div>
