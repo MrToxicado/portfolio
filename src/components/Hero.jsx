@@ -60,10 +60,10 @@ export default function Hero() {
   const [code] = useState(`
 const profile = {
     name: 'Yuvraj Singh',
-    title: 'Software Developer | Frontend Developer',
+    title: 'Software Developer | Frontend Developer | MERN Stack Developer',
     skills: [
         'React.js', 'Redux', 'Node.js', 'Express.js',
-        'Next.js', 'TypeScript', 'MongoDB', 'MySQL',
+        'Next.js', 'Javascript', 'TypeScript', 'MongoDB', 'MySQL',
         'CockroachDB', 'REST APIs', 'Git', 'Linux',
         'Unit Testing', 'Performance Optimisation'
     ],
@@ -73,7 +73,7 @@ const profile = {
         'Database Design & Management',
         'Scalable Architecture Design',
     ],
-    yearsOfExperience: 3+,
+    yearsOfExperience: 4+,
 };
   `);
 
