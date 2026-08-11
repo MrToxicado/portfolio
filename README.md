@@ -79,7 +79,7 @@ I care about clean readable code, responsive layouts, extensible architecture, a
 
 - **Email:** [mryuvrajsingh007@gmail.com](mailto:mryuvrajsingh007@gmail.com)
 - **Location:** Noida, 201301
-- **GitHub:** [blacktornado2](https://github.com/MrToxicado)
+- **GitHub:** [MrToxicado](https://github.com/MrToxicado)
 - **Repository:** [MrToxicado/portfolio](https://github.com/MrToxicado/portfolio)
 
 ---
