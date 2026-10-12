@@ -23,7 +23,7 @@
     ·
     <a href="https://github.com/MrToxicado"><strong>GitHub Profile</strong></a>
     ·
-    <a href="mailto:mryuvrajsingh007@gmail.com"><strong>Email Me</strong></a>
+    <a href="mailto:yuvrajsingh.ysk007@gmail.com"><strong>Email Me</strong></a>
   </p>
 </div>
 
@@ -86,7 +86,7 @@ I care about clean readable code, responsive layouts, extensible architecture, a
 
 ## Contact
 
-- **Email:** [mryuvrajsingh007@gmail.com](mailto:mryuvrajsingh007@gmail.com)
+- **Email:** [yuvrajsingh.ysk007@gmail.com](mailto:yuvrajsingh.ysk007@gmail.com)
 - **Location:** Noida, 201301
 - **GitHub:** [MrToxicado](https://github.com/MrToxicado)
 - **Repository:** [MrToxicado/portfolio](https://github.com/MrToxicado/portfolio)
