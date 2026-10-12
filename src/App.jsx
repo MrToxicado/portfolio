@@ -9,6 +9,7 @@ import Education from "./components/Education";
 import Contact from "./components/Contact";
 // import Projects from "./components/Projects";
 import { Route, Routes, BrowserRouter } from "react-router-dom"; // Ensure BrowserRouter or equivalent is wrapping App
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const [isOnePage, setIsOnePage] = useState(true);
@@ -70,6 +71,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       )}
+      <Analytics />
     </>
   );
 }
