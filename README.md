@@ -31,11 +31,11 @@
 
 ## About Me
 
-Hey, I am **Yuvraj Singh**, a Software Developer with 4+ years of experience, most recently working at **one.com** as an **SDE-1**.
+Hey, I am **Yuvraj Singh**, a Software Engineer with 4+ years of experience developing and maintaining scalable SaaS applications, responsive web interfaces, and robust REST APIs.
 
-I work across frontend and full-stack development, building scalable, responsive, and maintainable web applications with technologies like React.js, Node.js, PostgreSQL, CockroachDB, MongoDB, Redux, and TypeScript.
+Currently working as a **Software Developer** at **ANNEX LIFE**, with prior experience as a **Software Engineer** at **One.com**.
 
-I care about clean readable code, responsive layouts, extensible architecture, and solving practical product problems with modern web tooling.
+I work across full-stack development with technologies including React.js, TypeScript, JavaScript, Node.js, Express.js, Java, Spring Boot, PostgreSQL, MySQL, CockroachDB, Redis, Docker, Kubernetes, and AWS.
 
 <div align="center">
   <img src="./src/assets/images/profile2.jpeg" alt="Yuvraj Singh profile image" width="260" />
@@ -45,32 +45,33 @@ I care about clean readable code, responsive layouts, extensible architecture, a
 
 ## Portfolio Sections
 
-- **Home:** Hero section with my profile, role, and GitHub CTA.
-- **About:** A short introduction about me, my experience, and interests.
-- **Skills:** Frontend, backend, cloud, tooling, and development technologies.
-- **Experience:** My professional journey at one.com.
-- **Education:** My academic background and achievements.
-- **Contact:** Email and location details with a contact form powered by Web3Forms.
+- **Home:** Hero section with developer profile, core competencies, and interactive terminal.
+- **About:** Introduction, background, experience summary, and interests.
+- **Skills:** Frontend, backend, databases, cloud & DevOps, testing, and AI tooling.
+- **Experience:** Professional journey at ANNEX LIFE and One.com with key metrics and achievements.
+- **Education:** Academic background and achievements at GLA University.
+- **Contact:** Email, location, and interactive contact form.
 
 ---
 
 ## Experience
 
-| Role | Company | Period |
-| --- | --- | --- |
-| Software Developer - 1 | one.com | Jan. 2024 - Present |
-| Associate Software Developer | one.com | May 2022 - Dec. 2023 |
-| Software Developer Intern | one.com | Dec. 2021 - May 2022 |
+| Role | Company | Period | Location |
+| --- | --- | --- | --- |
+| Software Developer | ANNEX LIFE | Mar 2026 - Present | Delhi, India |
+| Software Engineer | One.com | Dec 2021 - Feb 2026 | Gurugram, India |
 
 ---
 
 ## Skills
 
-**Frontend:** React.js, Next.js, TypeScript, JavaScript, Redux, Tailwind CSS, HTML, CSS
-
-**Backend:** Node.js, Express.js, REST APIs, PostgreSQL, CockroachDB, MongoDB, MySQL
-
-**Tools & Cloud:** Git, GitHub, GitLab, Docker, Linux, CI/CD, Jest, Webpack, Vite, Vercel, VS Code
+- **Languages:** Java, JavaScript (ES6+), TypeScript, SQL, HTML5, CSS3
+- **Backend:** Node.js, Express.js, Java, Spring Boot, Spring MVC, REST APIs, OOP, API Integration
+- **Frontend:** React.js, Next.js, Redux, React Hooks, Angular, Tailwind CSS, Responsive Design
+- **Databases & Caching:** PostgreSQL, MySQL, CockroachDB, Redis, Database Indexing, Query Optimization
+- **Cloud & DevOps:** AWS (EC2, S3), Azure, Docker, Kubernetes, GitLab CI/CD, GitHub Actions, PM2, Linux
+- **Testing & Quality:** Jest, React Testing Library, Unit & Integration Testing, SonarQube, Code Reviews
+- **Tools & AI:** Git, GitHub, GitLab, Postman, VS Code, Vite, ChatGPT, Claude, GitHub Copilot
 
 ---
 

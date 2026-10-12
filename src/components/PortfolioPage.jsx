@@ -11,12 +11,12 @@ const AboutMe = () => {
           <h2 className="text-[#4ECCA3] text-3xl font-bold mb-12">WHO AM I?</h2>
           <p className="text-lg leading-loose">
             Hey, I am <span className="text-orange-400 font-bold tracking-wide">Yuvraj :) </span> <br />
-            I'm a software developer with over 3 years of experience, currently working at one.com as a SDE-1.<br />
-            I have experience working in Frontend/Full Stack Development. I have worked with technologies, frameworks and libraries like React.js, Node.js, PostgreSQL, CockroachDB, MongoDB, and Redux.<br />
-            I am passionate about building scalable and high-performance applications, focusing on clean and efficient code. I enjoy solving complex problems and continuously learning new technologies to enhance my skill set.<br />
-            Apart from coding, I like travelling, playing sports like cricket, badminton etc. and working out at gym.
-            I'm always open to new connections and conversations. Feel free to reach out.
-            I appreciate you taking the time to learn more about me ^_^
+            I'm a Software Engineer with 4+ years of experience developing and maintaining scalable SaaS applications, responsive web interfaces, and robust REST APIs.<br />
+            Currently working as a <span className="text-teal-400 font-semibold">Software Developer at ANNEX LIFE</span>, with previous experience as a <span className="text-blue-400 font-semibold">Software Engineer at One.com</span>.<br />
+            I specialize in full-stack architecture working across technologies like React.js, TypeScript, JavaScript, Node.js, Express.js, Java, Spring Boot, MySQL, PostgreSQL, CockroachDB, Redis, Docker, and AWS.<br />
+            I am passionate about building scalable, high-performance systems, modernizing legacy applications, and integrating AI-powered features that drive user engagement and developer efficiency.<br />
+            Apart from coding, I like travelling, playing cricket, badminton, and working out.
+            I'm always open to new connections and conversations. Feel free to reach out!
           </p>
         </div>
         <div className="flex items-center overflow-hidden">

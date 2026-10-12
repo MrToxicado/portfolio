@@ -51,29 +51,29 @@ const AnimatedGrid = () => {
 export default function Hero() {
   const words = [
     "Full-Stack Developer",
-    "React.js",
-    "Node.js",
-    "JavaScript",
-    "MERN stack",
+    "Software Engineer",
+    "React.js & TypeScript",
+    "Node.js & Spring Boot",
+    "REST APIs & Cloud",
   ];
 
   const [code] = useState(`
 const profile = {
     name: 'Yuvraj Singh',
-    title: 'Software Developer | Frontend Developer | MERN Stack Developer',
+    title: 'Software Engineer | Full-Stack Developer',
     skills: [
-        'React.js', 'Redux', 'Node.js', 'Express.js',
-        'Next.js', 'Javascript', 'TypeScript', 'MongoDB', 'MySQL',
-        'CockroachDB', 'REST APIs', 'Git', 'Linux',
-        'Unit Testing', 'Performance Optimisation'
+        'React.js', 'TypeScript', 'Node.js', 'Express.js',
+        'Java', 'Spring Boot', 'Next.js', 'JavaScript',
+        'PostgreSQL', 'MySQL', 'CockroachDB', 'Redis',
+        'Docker', 'Kubernetes', 'AWS', 'REST APIs', 'Jest'
     ],
     coreCompetencies: [
-        'Frontend Development',
-        'API Design & Integration',
-        'Database Design & Management',
-        'Scalable Architecture Design',
+        'Full-Stack Application Development',
+        'Microservices & RESTful API Architecture',
+        'Database Optimization & Caching',
+        'AI Feature Integration & Modernization'
     ],
-    yearsOfExperience: 4+,
+    yearsOfExperience: '4+',
 };
   `);
 
@@ -140,17 +140,13 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="font-mono sm:text-xl text-gray-300/90 leading-relaxed">
-                  Full-stack dev making web and mobile apps with modern tech.
-                  <p className="text-purple-500 font-bold font-mono pt-2">
-                    Clean Readable Code
-                  </p>
-                  <p className="text-purple-500 font-bold font-mono pt-2">
-                    Responsive Layout
-                  </p>
-                  <p className="text-purple-500 font-bold font-mono pt-2">
-                    Extensible code
-                  </p>
+                  Software Engineer with 4+ years of experience building scalable SaaS applications, high-performance web interfaces, and robust APIs.
                 </p>
+                <div className="pt-2 flex flex-col gap-1 font-mono font-bold text-sm sm:text-base">
+                  <span className="text-teal-400">⚡ Scalable Architecture</span>
+                  <span className="text-purple-400">✨ Clean, Maintainable Code</span>
+                  <span className="text-blue-400">🤖 AI-Powered Integrations</span>
+                </div>
               </div>
 
               {/* CTA Buttons */}
